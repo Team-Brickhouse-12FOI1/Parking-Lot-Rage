@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.brickhouse.parkinglotrage.MainWindow">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.brickhouse.parkinglotrage.MainWindow">
    <children>
-      <Button layoutX="268.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#onHelloButtonClick" text="Button" />
-      <Label fx:id="text" layoutX="281.0" layoutY="158.0" text="Label" />
+      <Rectangle fx:id="box1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="490.0" layoutY="240.0" onMouseClicked="#onBoxEnter" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="545.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="600.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="655.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="490.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="545.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="600.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="655.0" layoutY="295.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="490.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="545.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="600.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="655.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="490.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="545.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="600.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="box16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="655.0" layoutY="405.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
    </children>
 </AnchorPane>
