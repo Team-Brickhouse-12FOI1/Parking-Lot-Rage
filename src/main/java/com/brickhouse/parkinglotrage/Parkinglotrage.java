@@ -11,6 +11,6 @@ public class Parkinglotrage extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-
+        System.out.println("Test");
     }
 }
