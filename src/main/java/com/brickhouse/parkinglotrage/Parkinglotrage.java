@@ -30,7 +30,7 @@ public class Parkinglotrage extends Application {
             loader.setLocation(Parkinglotrage.class.getResource("main-window.fxml"));
             rootLayout = (AnchorPane) loader.load();
 
-            // Show the scene containig main-window
+            // Show the scene containing main-window
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
             primaryStage.show();
